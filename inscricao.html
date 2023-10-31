@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Expotec 2023</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="expotec-icon" href="assets\img\expotec-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo-ifrn.png">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <!-- Primeira parte do Site -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:comunicacao.reitoria@ifrn.edu.br">comunicacao.reitoria@ifrn.edu.br</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:(84) 4005-0890">(84) 4005-0890</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabeçalho do site -->
+    <!-- Cabeçalho do Site -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow bg-success">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-white h1 align-self-center" href="index.html">
+                <b>Expotec</b> 2023
+            </a>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html#salas" target="_blank">Salas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html#sobre" target="_blank">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#programacao">Programação</a>
+                        </li>
+                        <li class="nav-item align-self-center">
+                            <a href="#inscricao" style="text-decoration: none;">
+                                <button class="btn btn-danger border-0 services-icon-wap d-flex justify-content-center shadow">Inscrição</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Localização -->
+    <div class="container-fluid bg-light py-5">
+        <div class="col-md-6 m-auto text-center">
+            <h1 class="h1">Localização</h1>
+            <p>
+                Instituto Federal do Rio Grande do Norte - Parelhas RN, Brasil
+            </p>
+        </div>
+    </div>
+
+    <div id="map" class="shadow" style="width: 100%; height: 300px;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1155.6144890982698!2d-36.66866293524352!3d-6.699586222983683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7afad964796e617%3A0xed73fcb56f0ca5e8!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20do%20Rio%20Grande%20do%20Norte%2C%20Campus%20Avan%C3%A7ado%20Parelhas!5e0!3m2!1spt-BR!2sbr!4v1698695244491!5m2!1spt-BR!2sbr" width="100%" height="300px" style="border:0; display: flex;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+    <!-- Formulário de Inscrição -->
+    <div class="container py-5">
+        <h1 id="inscricao" class="d-flex justify-content-center h1">Formulário de Inscrição</h1>
+        <div class="row py-5">
+            <form class="col-md-9 m-auto" method="post" role="form">
+                <div class="row">
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="inputnome">Seu nome</label>
+                        <input type="text" class="form-control mt-1" id="nome" name="nome" placeholder="Nome" required>
+                        <div class="valid-feedback">Looks good!</div>
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="inputmatricula">Matrícula</label>
+                        <input type="text" class="form-control mt-1" id="email" name="email" placeholder="Matrícula" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="inputemail">Email</label>
+                    <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Email Acadêmico" required>
+                </div>
+                <div class="mb-3">
+                    <label for="inputdesc">Descrição</label>
+                    <textarea class="form-control mt-1" id="desc" name="desc" placeholder="Descrição do Projeto" rows="8" required></textarea>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <select class="form-select" aria-label="Default select example" required>
+                            <option selected disabled value="">Selecione sua turma</option>
+                            <option value="1">1º Ano Mineração</option>
+                            <option value="2">2º Ano Mineração</option>
+                            <option value="3">3º Ano Mineração</option>
+                            <option value="4">4º Ano Mineração</option>
+                            <option value="5">1º Ano Informática</option>
+                            <option value="6">2º Ano Informática</option>
+                            <option value="7">3º Ano Informática</option>
+                            <option value="8">4º Ano Informática</option>
+                            <option value="9">Subsequente</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <select class="form-select" aria-label="Default select example" required>
+                            <option selecte disabled value="">Selecione seu Turno</option>
+                            <option value="2">Manhã</option>
+                            <option value="1">Tarde</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-end mt-2">
+                        <button type="submit" class="btn btn-success btn-lg px-3">Submeter Projeto</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Programação do evento -->
+    <section class="bg-light">
+        <div class="container py-5">
+            <h1 id="programacao" class="h1 justify-content-center" style="margin-bottom: 40px;">Programação do evento</h1>
+            <div class="accordion" id="programacaoEvento">
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Segunda-Feira
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#programacaoEvento">
+                    <div class="accordion-body">
+                        <table class="table table-hover table-bordered">
+                            <thead class="text-center">
+                                <tr>
+                                    <th scope="col">Hora</th>
+                                    <th scope="col">Eventos</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">7:30 - 8:30</th>
+                                    <td>Apresentação do Clube de Teatro</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8:30 - 11:00</th>
+                                    <td>Abertura das salas para visita</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">11:00 - 13:00</th>
+                                    <td>Abertura da cantina para almoço</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">13:00 - 18:00</th>
+                                    <td>Abertura das salas para visitas</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">14:00 - 18:00</th>
+                                    <td>Abertura da salas de jogos</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Terça-Feira
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#programacaoEvento">
+                    <div class="accordion-body">
+                        <table class="table table-hover table-bordered">
+                            <thead class="text-center">
+                                <tr>
+                                    <th scope="col">Hora</th>
+                                    <th scope="col">Evento</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr scope="row">
+                                    <th>7:00 - 8:00</th>
+                                    <td>Abertura do Dia 2 com Apresentação Músical</td>
+                                </tr>
+                                <tr scope="row">
+                                    <th>8:00 - 11:00</th>
+                                    <td>Abertura dos Jogos da EXPOTEC</td>
+                                </tr>
+                                <tr scope="row">
+                                    <th>11:00 - 13:00</th>
+                                    <td>Abertura da cantina para almoço</td>
+                                </tr>
+                                <tr scope="row">
+                                    <th>13:00 - 14:00</th>
+                                    <td>Palestra sobre Desenvolvimento sustentável</td>
+                                </tr>
+                                <tr scope="row">
+                                    <th>14:00 - 18:00</th>
+                                    <td>Abertura das salas para visitas</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Quarta-Feira
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#programacaoEvento">
+                    <div class="accordion-body">
+                        <table class="table table-hover table-bordered">
+                            <thead class="text-center">
+                                <tr>
+                                    <th scope="col">Hora</th>
+                                    <th scope="col">Evento</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr scope="row">
+                                    <th>7:00 - 12:00</th>
+                                    <td>Exposição de Projetos Escolares</td>
+                                </tr>
+                                <tr scope="row">
+                                    <th>11:00 - 13:00</th>
+                                    <td>Abertura da cantina para almoço</td>
+                                </tr>
+                                <tr scope="row">
+                                    <th>13:00 - 17:00</th>
+                                    <td>Abertura das salas para visitas</td>
+                                </tr>
+                                <tr scope="row">
+                                    <th>17:00 - 18:00</th>
+                                    <td>Encerramento do evento e premiações</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Rodapé -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">IFRN Campus Parelhas</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Rua Dr. Mauro Duarte, s/n, José Clóvis - Parelhas-RN
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:(84) 4005-0890">(84) 4005-0890</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:comunicacao.reitoria@ifrn.edu.br">comunicacao.reitoria@ifrn.edu.br</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.facebook.com/IFRNCampusParelhas"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/ifrn_parelhas"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/ifrnoficial_"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.youtube.com/@IFRNPAAS"><i class="fab fa-youtube fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Copyright &copy; 2023 Marcus Vinícius
+                            | Designed by Marcus Vinícius
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>
